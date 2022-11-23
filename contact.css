@@ -259,12 +259,7 @@ h1 {
 
 
 
-.contact{
-    background-color: #19234c;
-    width: 50%;
-    margin:5%25%;
-    border-radius: 15px;
-}
+
 
 body,
 p,
@@ -294,7 +289,7 @@ form {
   text-align: center;
 }
 
-button,
+/* button,
 input {
   border: 0;
   outline: 0;
@@ -303,7 +298,7 @@ input {
   padding: 16px;
   background-color: #ebecf0;
   text-shadow: 1px 1px 0 #fff;
-}
+} */
 
 label {
   display: block;
@@ -324,17 +319,17 @@ input:focus {
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 
-button {
+/* button {
   color: #61677c;
   font-weight: bold;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   font-weight: 600;
 }
-button:hover {
+/* button:hover {
   box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
-}
-button:active {
+} */
+/* button:active {
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 button .icon {
@@ -350,15 +345,15 @@ button.unit {
   align-items: center;
   margin: 0 8px;
   font-size: 19.2px;
-}
-button.unit .icon {
+} */ 
+/* button.unit .icon {
   margin-right: 0;
 }
 button.red {
   display: block;
   width: 100%;
   color: #ae1100;
-}
+} */
 
 .input-group {
   display: flex;
@@ -377,6 +372,19 @@ button.red {
     margin:5%25%;
     border-radius: 15px;
     box-shadow: 5px 5px rgb(249, 247, 247);
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(77, 161, 187, 0.8)
+  );
+  box-shadow: 2px 5px 20px rgb(248, 245, 245);
+  backdrop-filter: blur(20px);
 }
 
 body,

@@ -192,7 +192,9 @@ input[type="checkbox"]{
   flex-direction: column;
   background-color: #34495e;
 } */
-
+.card-header{
+  background-color: #677481;
+}
 .cards {
   width: 100%;
   display: flex;
@@ -203,7 +205,7 @@ input[type="checkbox"]{
 .cardi {
   margin: 40px;
   position: relative;
-  max-width: 500px;
+  max-width: 400px;
   max-height: 450px;
   box-shadow: 0 40px 60px -6px black;
 }
