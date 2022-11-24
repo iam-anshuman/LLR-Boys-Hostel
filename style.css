@@ -4,14 +4,13 @@ body{
     /* min-height: 26vh; */
     /* background:url(images/MIMIT.jpg) center/cover no-repeat fixed; */
     /* background: red; */
+    /* scroll-x : hidden; */
 }
-#main{
-    /* opacity: 0.5; */
-}
+
 section img{
   width: 30rem;
 }
-.container{
+.container-nav{
   font-size: 150%;
   position: relative;
   
@@ -239,7 +238,7 @@ input[type="checkbox"]{
   opacity: 0;
   padding: 18px 8%;
   background-color: white;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   transition: 0.8s ease;
 }
 
@@ -252,6 +251,65 @@ h1 {
   font-size: 2.8rem;
   color: #fff;
   margin: 40px 0 20px 0;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.search-student{
+  /* border: 2px solid red; */
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  flex-direction: column;
+  /* color: white; */
+}
+
+.search-box {
+  transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #ded9d9;
+}
+.search-box + label .search-icon {
+  color: black;
+}
+.search-box:hover {
+  color: white;
+  background: #c8c8c8;
+  box-shadow: 0 0 0 5px #3d4752;
+}
+.search-box:hover + label .search-icon {
+  color: white;
+}
+.search-box:focus {
+  transition: width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39), border-radius 0.6s, background 0.6s;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding-left: 15px;
+  cursor: text;
+  width: 300px;
+  border-radius: auto;
+  background: #ebebeb;
+  color: black;
+}
+.search-box:focus + label .search-icon {
+  color: black;
+}
+.search-box:not(:focus) {
+  text-indent: -5000px;
+}
+#search-submit {
+  position: relative;
+  left: -5000px;
+}
+.search-icon {
+  position: relative;
+  left: -30px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 

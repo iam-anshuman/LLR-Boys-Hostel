@@ -12,7 +12,7 @@
 <body>
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-    <div class="container">
+    <div class="container container-nav">
         <a href="./index.html" class="navbar-brand">
         <strong class="h3">LLR</strong> Boys' Hostel</a>
         
@@ -27,6 +27,7 @@
         <li class="nav-item">
             <a href="./contact.html" class="nav-link">Contact Us</a>
         </li>
+        
     </ul>
 </div>
   </div>
@@ -83,83 +84,85 @@
       </div>
     </div>
   </section>
-  <!-- mid section -->
-  <!-- warden section -->
-  <!-- <div class="d-md-flex d-lg-flex justify-content-around">
-    <div class="card" style="width: 18rem;margin: 2rem;">
-        <img src="./components/hostel.jpg" class="card-img-top" alt="...">
-        <div class="card-body bg-dark text-light">
-            <h4>Vijay Samyal</h4>
-            <p class="card-text">Chief warden</p>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;margin: 2rem;">
-          <img src="./components/hostel.jpg" class="card-img-top" alt="...">
-          <div class="card-body bg-dark text-light">
-            <h4>Vijay Samyal</h4>
-            <p class="card-text">Chief warden</p>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;margin: 2rem;">
-          <img src="./components/hostel.jpg" class="card-img-top" alt="...">
-          <div class="card-body bg-dark text-light">
-            <h4>Vijay Samyal</h4>
-            <p class="card-text">Chief warden</p>
-          </div>
-        </div>
-      </div> -->
       
       <section>
       <h1 class="text-center text-dark">Our respected wardens</h1>
       <!-- <h1 class="text-dark">Card Image with description on :hover</h1> -->
       <div class="cards">
         <div class="cardi">
+          <h2 class="card-title">Warden</h2>
+          <img src="./images/raje.png" alt="">
+          
+          <p class="card-desc"><b>Dr. Subhash Ahuja </b><br>&#9679;Warden Boys’ Hostel-1 <br>&#9679;Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="cardi">
           <h2 class="card-title">Chief Warden</h2>
           <img src="./images/sm.png" alt="">
           
           <p class="card-desc">
-            Dr. Vijay Samyal <br>
-            Chief Warden boy's hostel-1 <br>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <b>Dr. Vijay Samyal </b><br>
+            &#9679;Chief Warden boy's hostel-1 <br>
+            &#9679;Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </p>
         </div>
         <div class="cardi">
           <h2 class="card-title">Warden</h2>
-          <img src="./images/raje.png" alt="">
-          
-          <p class="card-desc">Dr. Subhash Ahuja <br>Warden Boys’ Hostel-1 <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="cardi">
-          <h2 class="card-title"></h2>
           <img src="./images/aj.png" alt="">
-          <p class="card-desc">Er. Ravinder Kumar <br>	Warden Boys’ Hostel-2 <br>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p class="card-desc"><b>Er. Ravinder Kumar </b><br>&#9679;Warden Boys’ Hostel-2<br>
+            &#9679;Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </div>
       </div>
       <br>
+<hr>
+  <section class="search-student">
+    <h1 style="color:black ;">Search Student Details</h1>
+        <form class="search-container" action="//llamaswill.tumblr.com/search">
+          <input id="search-box" type="text" class="search-box" name="q" />
+          <label for="search-box"><i class="fa-solid fa-magnifying-glass search-icon"></i></label>
+          <input type="submit" id="search-submit" />
+        </form>
 
+    </div>
+  </section>
   <!-- notice board -->
-        <div class="card m-4 " style="max-height:10rem;">
-        <div class="card-header text-white">
-          Notice
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-6">
+        <h1 class="text-dark ms-auto me-auto" style="border-bottom: 5px solid rgb(32, 31, 31) ;width: fit-content;">Hostel Notice</h1>
+        
+        <div class="card m-4 " style="max-height:12rem;">
+          <div class="card-header text-white">
+            Notice
+          </div>
+          <ol class="overflow-auto text-dark" id="notice"> </ol>
         </div>
-        <ol class="overflow-auto" id="notice"> </ol>
       </div>
-      <div class="card m-4 " style="max-height:10rem;">
-        <div class="card-header text-white">
-          Rules
+      <div class="col-6">
+        <h1 class="text-dark ms-auto me-auto" style="border-bottom: 5px solid rgb(32, 31, 31) ;width: fit-content; ">Hostel Rules</h1>
+        
+        <div class="card m-4 " style="max-height:12rem;">
+          <div class="card-header text-white">
+            Rules
+          </div>
+          <ol class="overflow-auto text-dark" id="rules"></ol>
         </div>
-        <ol class="overflow-auto" id="rules"></ol>
       </div>
     </div>
+  </div>
+</div>
       
   </section>
-  <footer class="footer text-center  bg-dark py-3 bg-light ">
+<hr>
+
+  <footer class="footer text-center bg-dark py-3 bg-light ">
     <div class="container">
       <span class="text-muted">©copyright 2022 || All Rights Reserved</span>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/7d47e7aafc.js" crossorigin="anonymous"></script>
   <script type="module" src="./script.js"></script>
 </body>
 </html>
