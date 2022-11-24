@@ -363,9 +363,9 @@ h1 em {
   display: inline-block;
   margin: 10px;
   padding: 20px;
-  border: 1px solid rgba(237, 220, 220, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 25px;
-  box-shadow: 0 0 15px rgba(219, 200, 200, 0.5);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   font-size: 0.9em;
   transition: all 0.2s ease-in-out;
   text-align: center;
@@ -383,7 +383,7 @@ h1 em {
   max-width: 150px;
   float: left;
   border-radius: 50%;
-  box-shadow: 0 0 2px rgba(241, 227, 227, 0.5);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease-in-out;
 }
 .contact-card li .details {
@@ -400,7 +400,7 @@ h1 em {
   margin-bottom: 15px;
   text-decoration: none;
   position: relative;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .contact-card li .details > span:before,
 .contact-card li .details > a:before {
@@ -412,15 +412,15 @@ h1 em {
   margin-right: 15px;
   width: 15px;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .contact-card li .details a {
-  color: #f9fbf8;
+  color: #000000;
   transition: color 0.5s ease-in-out;
 }
 .contact-card li .details a:hover,
 .contact-card li .details a:focus {
-  color: #ffffff;
+  color: #000000;
   transition: color 0.5s ease-in-out;
 }
 .contact-card li .details .name {
@@ -439,17 +439,17 @@ h1 em {
   content: "\f003";
 }
 .contact-card li:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   transition: all 0.2s ease-in-out;
   transform: scale(1.03);
 }
 .contact-card li:hover img {
-  box-shadow: 0 0 10px rgba(235, 232, 232, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   transition: all 0.4s ease-in-out;
 }
 .contact-card li:hover .details {
   transition: all 0.5s ease-in-out;
-  text-shadow: 1px 1px #ffffff;
+  text-shadow: 1px 1px #000000;
 }
 @media (max-width: 550px) {
   .contact-card li {

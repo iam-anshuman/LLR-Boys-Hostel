@@ -450,6 +450,7 @@ h1 {
   .contact-card li .details a:before {
     display: none;
   }
+}
 .map {
   text-align: center;
   background-color: #677481;
