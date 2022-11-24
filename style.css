@@ -314,7 +314,6 @@ h1 {
 }
 
 
-
 /* Card detail */
 
 .card-container {
@@ -451,4 +450,19 @@ h1 {
   .contact-card li .details a:before {
     display: none;
   }
+.map {
+  text-align: center;
+  background-color: #677481;
+  width:80%;
+  position: relative;
+  left: 10%;
+  border-radius: 10px;
+}
+
+.mapi {
+  width: 95%;
+  height: 300px;
+  margin:0 15px 15px 15px;
+  background-color: lightgreen;
+  border-radius: 10px;
 }

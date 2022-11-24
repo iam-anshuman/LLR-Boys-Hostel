@@ -1,8 +1,11 @@
 .demonic {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  text-align: center;
+  display:flex ;
+  justify-content: center;
+  /* grid-template-columns: auto auto auto; */
   background-color: black;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .demonic1 {
@@ -157,9 +160,6 @@ body{
   /* min-height: 26vh; */
   /* background:url(images/MIMIT.jpg) center/cover no-repeat fixed; */
   /* background: red; */
-}
-#main{
-  /* opacity: 0.5; */
 }
 section img{
 width: 30rem;
@@ -406,3 +406,26 @@ margin: 40px 0 20px 0;
 text-align: center;
 }
 
+
+
+
+@media screen and (max-width: 700px) {
+  .demonic1 {
+  background-color: gray;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.demonic1 img {
+  transition: 0.4s all ease-in-out;
+  max-width: 90%;
+}
+
+.demonic1:hover img {
+  transform: scale(1.2);
+  max-width: 80%;
+}
+  
+}
