@@ -97,11 +97,6 @@ searchtxt.addEventListener("blur",function(){
         
 
         if(element.first_name == searchInput){
-            // if(element.gender == "Female"){
-            //   var srcimg="https://cdn.pixabay.com/photo/2014/04/03/10/32/user-310807_960_720.png"
-            // }else{
-            //   var srcimg="https://cdn.pixabay.com/photo/2014/04/03/10/32/businessman-310819_960_720.png"
-            // }
             console.log(element.room_number);
             console.log(element.gender);
             console.log(element.email);
@@ -109,7 +104,7 @@ searchtxt.addEventListener("blur",function(){
             <div class="card-container">
             <ul class="contact-card">
             <li><img src="https://cdn.pixabay.com/photo/2014/04/03/10/32/businessman-310819_960_720.png"/>
-            <div class="details"><span class="name">${element.first_name+" "+element.last_name}</span><span class="title">${element.gender}</span><a class="phone" href="tel:123-456-789">${element.room_number}</a><a class="email" href="mailto:emilia.jacobs@email.com">${element.email}</a></div>
+            <div class="details"><span class="name">${element.first_name+" "+element.last_name}</span><span class="title">${element.gender}</span><a class="phone" href="tel:123-456-789">${element.room_number}</a><a class="email" href="mailto:emilia.jacobs@email.com">&#8377;${element.mess_bill}</a></div>
             </li>`
         }
         showDetails.innerHTML=html;
