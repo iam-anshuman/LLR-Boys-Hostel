@@ -313,3 +313,19 @@ h1 {
   cursor: pointer;
 }
 
+
+.map {
+  text-align: center;
+  background-color: #677481;
+  width:80%;
+  position: relative;
+  left: 10%;
+  padding: ;
+}
+@media screen and (min-width: 320px) {
+  .mapi {
+    width: 80%;
+    height: 250px;
+    background-color: lightgreen;
+  }
+}
